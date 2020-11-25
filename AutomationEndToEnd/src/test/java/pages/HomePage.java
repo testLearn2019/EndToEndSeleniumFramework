@@ -13,10 +13,14 @@ public class HomePage {
 	}
 	
 	public void adminMenu() {
+		//admin menu function
 		Actions action = new Actions(driver);
 		action.moveToElement(driver.findElement(By.id("menu_admin_viewAdminModule"))).
 		moveToElement(driver.findElement(By.id("menu_admin_UserManagement"))).
 		moveToElement(driver.findElement(By.id("menu_admin_viewSystemUsers"))).click().build().perform();
+		//hkjwf
+		
+	
 	}
 
 }

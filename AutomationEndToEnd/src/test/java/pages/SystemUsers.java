@@ -12,6 +12,7 @@ public class SystemUsers {
 		this.driver = driver;
 	}
 	
+	//search user
 	public void searchUser() {
 		driver.findElement(By.id("searchSystemUser_userName")).sendKeys("Aaliyah.Haq");
 		Select userRole = new Select(driver.findElement(By.id("searchSystemUser_userType")));
